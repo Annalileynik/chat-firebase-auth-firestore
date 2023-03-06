@@ -8,7 +8,6 @@ const style={
     button: `w-[20%] bg-gray-400`,
 }
 
-
 const SendMessage = ({scroll}) => {
 const [input, setInput]=useState('')
     const sendMessage = async(event)=>{event.preventDefault()
@@ -35,7 +34,7 @@ const {uid, displayName} = auth.currentUser
         value={input}
         onChange={(event)=>setInput(event.target.value)}
         className={style.input}
-        type='text'
+        type="text"
         placeholder='Message'
         />
             <button className={style.button}

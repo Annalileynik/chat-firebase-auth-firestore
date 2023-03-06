@@ -12,7 +12,6 @@ const googleSignIn = () => {
     signInWithRedirect(auth, provider)}
 const SignIn = () => {
 
-
     return (
         <div className={style.wrapper}>
 <GoogleButton onClick={googleSignIn}/>
